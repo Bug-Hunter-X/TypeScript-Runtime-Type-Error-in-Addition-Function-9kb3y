@@ -1,0 +1,3 @@
+# TypeScript Runtime Type Error
+
+This repository demonstrates a common, yet subtle, runtime type error that can occur in TypeScript despite its strong typing system. The `add` function is annotated to accept two numbers and return a number.  However, the code calls `add` with a string and a number, leading to a runtime error because TypeScript's type checking occurs at compile time and cannot prevent this runtime type mismatch.
